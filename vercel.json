@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_PAYPAL_CLIENT_ID": "AZ5IaTdgJ_-q4N8yrnA_YhOJacQ4x7jz1nNrJaq-0Y6geciZCppGzc6g_-Mxf16FPWKgxC0WO6Jw1tqy",
+    "PAYPAL_ACCESS_TOKEN": "A21AAPlsCeqhR3JW-xxM6rHYGSNLMeiL5i8Ab_9SIMAG8djPqokOTicKvSxE1ZNuM68jzId1EPKZQI4n8WyTrgJK2Es64h5og"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_PAYPAL_CLIENT_ID": "AZ5IaTdgJ_-q4N8yrnA_YhOJacQ4x7jz1nNrJaq-0Y6geciZCppGzc6g_-Mxf16FPWKgxC0WO6Jw1tqy",
+      "PAYPAL_ACCESS_TOKEN": "A21AAPlsCeqhR3JW-xxM6rHYGSNLMeiL5i8Ab_9SIMAG8djPqokOTicKvSxE1ZNuM68jzId1EPKZQI4n8WyTrgJK2Es64h5og"
+    }
+  }
+}
